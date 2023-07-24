@@ -33,7 +33,7 @@
             android:id="@+id/username"
             android:textStyle="bold"
             android:textSize="18sp"
-            android:textColor="@color/black"
+            android:textColor="#f00f"
             >
 
         </TextView>
