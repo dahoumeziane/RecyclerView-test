@@ -25,4 +25,7 @@ class MainActivity : AppCompatActivity() {
         users_list.layoutManager = manager
 
     }
+    fun add (a:Int,b:Int):Int{
+        return a+b
+    }
 }
