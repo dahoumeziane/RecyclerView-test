@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         users.add(UserModel("Ikram Lyna","ikram_lyna@gmail.com","Polytech student","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3WEmfJCME77ZGymWrlJkXRv5bWg9QQmQEzw&usqp=CAU"))
 
         val adapter = UserAdapter(this,users)
+        val e = 0
         val manager = LinearLayoutManager(this)
         users_list.adapter = adapter
         users_list.layoutManager = manager
